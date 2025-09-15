@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avlijas Solutions — Reliable. Local. Done right.</title>
+  <meta name="description" content="Management, property management, painting, repairs, installations, supply and delivery across Ontario, Canada." />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .card { border-radius: 1rem; border-width: 1px; background: white; box-shadow: 0 1px 2px rgba(0,0,0,.05); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; border-radius:1rem; padding:.5rem 1rem; border:1px solid rgb(226,232,240); box-shadow: 0 1px 2px rgba(0,0,0,.05); transition: box-shadow .2s; }
+    .btn:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .btn-primary { background:#0f172a; color:white; }
+    .btn-primary:hover { background:#1e293b; }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
+    <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-bold text-xl tracking-tight">Avlijas Solutions</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a class="hover:text-slate-700" href="#services">Services</a>
+        <a class="hover:text-slate-700" href="#about">About</a>
+        <a class="hover:text-slate-700" href="#areas">Service Areas</a>
+        <a class="hover:text-slate-700" href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="hidden md:inline-block btn btn-primary">Get a quote</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="mx-auto max-w-7xl px-4 pt-16 pb-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">One‑stop partner for <span class="whitespace-nowrap">business & property</span> services in Ontario</h1>
+        <p class="mt-4 text-lg text-slate-700">From management and property care to painting, repairs, installations, supply and delivery — we handle it end‑to‑end so you can focus on what matters.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="btn btn-primary">Request a quote</a>
+          <a href="#services" class="btn">Explore services</a>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-600">
+          <span class="inline-flex items-center gap-2"><i data-lucide="shield-check" class="h-4 w-4"></i>Fully insured</span>
+          <span class="inline-flex items-center gap-2"><i data-lucide="clock" class="h-4 w-4"></i>On‑time delivery</span>
+          <span class="inline-flex items-center gap-2"><i data-lucide="check-circle" class="h-4 w-4"></i>Satisfaction guarantee</span>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] w-full rounded-3xl shadow-xl border bg-gradient-to-tr from-slate-50 to-slate-100 grid place-items-center">
+          <div class="grid grid-cols-3 gap-6 p-8 text-center">
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="building-2"></i><span class="mt-2 text-xs font-medium">Management</span></div>
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="paintbrush"></i><span class="mt-2 text-xs font-medium">Painting</span></div>
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="hammer"></i><span class="mt-2 text-xs font-medium">Repairs</span></div>
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="wrench"></i><span class="mt-2 text-xs font-medium">Install</span></div>
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="package"></i><span class="mt-2 text-xs font-medium">Supply</span></div>
+            <div class="card p-4 flex flex-col items-center"><i data-lucide="truck"></i><span class="mt-2 text-xs font-medium">Delivery</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-14 bg-slate-50 border-t">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-semibold">What we do</h2>
+      <p class="mt-2 text-slate-700 max-w-2xl">Flexible, professional help for owners, operators, and organizations. Hire us for one‑off jobs or ongoing service plans.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="building-2" class="h-5 w-5"></i>Management</div><p class="text-sm text-slate-700 mt-2">Operational oversight, vendor coordination, scheduling, budgeting, SOPs, and reporting.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="building-2" class="h-5 w-5"></i>Property Management</div><p class="text-sm text-slate-700 mt-2">Tenant coordination, inspections, turnovers, preventative maintenance, and 24/7 issues triage.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="paintbrush" class="h-5 w-5"></i>Painting & Finishes</div><p class="text-sm text-slate-700 mt-2">Interior/exterior, patch & prep, drywall, trim, caulking, colour matching, move‑in refreshes.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="hammer" class="h-5 w-5"></i>Repairs & Handyman</div><p class="text-sm text-slate-700 mt-2">Doors, hardware, faucets, lighting, drywall, flooring, minor carpentry and punch‑lists.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="wrench" class="h-5 w-5"></i>Installations</div><p class="text-sm text-slate-700 mt-2">Fixtures, appliances, shelving, TV mounts, smart locks, washroom accessories and more.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="package" class="h-5 w-5"></i>Supply & Procurement</div><p class="text-sm text-slate-700 mt-2">Sourcing, bulk purchasing, consumables, job kitting, and materials logistics.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="truck" class="h-5 w-5"></i>Delivery & Haul‑away</div><p class="text-sm text-slate-700 mt-2">Last‑mile delivery, on‑site drop‑offs, debris removal, and responsible disposal.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="shield-check" class="h-5 w-5"></i>Health & Safety</div><p class="text-sm text-slate-700 mt-2">WSIB‑aware practices, risk assessments, and compliance with Ontario regulations.</p></div>
+        <div class="card p-5"><div class="font-medium flex items-center gap-2"><i data-lucide="clock" class="h-5 w-5"></i>Planned Service Programs</div><p class="text-sm text-slate-700 mt-2">Seasonal maintenance, recurring site checks, and service‑level agreements.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-semibold">Built in Ontario. Trusted by owners.</h2>
+        <p class="mt-4 text-slate-700">Avlijas Solutions is an Ontario‑based team delivering practical, no‑nonsense results. We combine reliable scheduling, clear communication, and skilled trades to keep your properties and projects moving forward.</p>
+        <ul class="mt-6 space-y-3 text-slate-800">
+          <li class="flex gap-3"><i data-lucide="check-circle" class="h-5 w-5 mt-0.5"></i> Fully insured and WSIB‑aware</li>
+          <li class="flex gap-3"><i data-lucide="check-circle" class="h-5 w-5 mt-0.5"></i> Coordinated multi‑service jobs in one call</li>
+          <li class="flex gap-3"><i data-lucide="check-circle" class="h-5 w-5 mt-0.5"></i> Clear estimates and photo updates</li>
+        </ul>
+      </div>
+      <div class="card p-6">
+        <dl class="grid grid-cols-2 gap-6">
+          <div class="rounded-2xl border p-5 bg-white shadow-sm"><div class="text-2xl font-semibold">&lt; 24 hrs</div><div class="text-slate-500 text-sm mt-1">Avg. Response</div></div>
+          <div class="rounded-2xl border p-5 bg-white shadow-sm"><div class="text-2xl font-semibold">98%</div><div class="text-slate-500 text-sm mt-1">On‑time rate</div></div>
+          <div class="rounded-2xl border p-5 bg-white shadow-sm"><div class="text-2xl font-semibold">85%</div><div class="text-slate-500 text-sm mt-1">Repeat clients</div></div>
+          <div class="rounded-2xl border p-5 bg-white shadow-sm"><div class="text-2xl font-semibold">1,000+</div><div class="text-slate-500 text-sm mt-1">Jobs completed</div></div>
+        </dl>
+        <p class="text-xs text-slate-500 mt-4">* Sample metrics — replace with your real numbers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Areas -->
+  <section id="areas" class="py-14 bg-slate-50 border-y">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-semibold">Where we work</h2>
+      <p class="mt-2 text-slate-700">Ontario, Canada — mobile crews and scheduled visits.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-4">
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>Greater Toronto Area</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>Kitchener–Waterloo & Cambridge</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>Guelph</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>Hamilton & Niagara</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>London</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+        <div class="card"><div class="p-5"><div class="text-base flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4"></i>Ottawa</div><p class="text-sm text-slate-600 mt-2">Fast estimates and flexible scheduling in this region.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl font-semibold">Request a quote</h2>
+        <p class="mt-2 text-slate-700">Tell us about your project. We’ll respond with timing and a clear estimate.</p>
+        <!-- Formspree integration: using user's endpoint -->
+        <form action="https://formspree.io/f/xdklvkby" method="POST" class="mt-6 space-y-4">
+          <input type="hidden" name="_subject" value="New quote request — Avlijas Solutions" />
+          <!-- honeypot -->
+          <input type="text" name="_gotcha" class="hidden" />
+          <input required name="name" placeholder="Your name" class="w-full border rounded-xl px-3 py-2" />
+          <input required type="email" name="email" placeholder="Email" class="w-full border rounded-xl px-3 py-2" />
+          <input name="phone" placeholder="Phone" class="w-full border rounded-xl px-3 py-2" />
+          <textarea required name="message" rows="5" placeholder="Describe the work (location, scope, timeline, photos link if any)" class="w-full border rounded-xl px-3 py-2"></textarea>
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p class="text-xs text-slate-500">Submissions go to avlijassolutions@gmail.com via Formspree.</p>
+        </form>
+      </div>
+      <div class="card p-6 space-y-4">
+        <h3 class="font-semibold text-lg">Contact</h3>
+        <p class="text-slate-700 flex items-center gap-2"><i data-lucide="phone" class="h-4 w-4"></i> 226-339-8763</p>
+        <p class="text-slate-700 flex items-center gap-2"><i data-lucide="mail" class="h-4 w-4"></i> avlijassolutions@gmail.com</p>
+        <div class="pt-2">
+          <h4 class="font-medium">Insurance & Compliance</h4>
+          <ul class="mt-2 space-y-2 text-sm text-slate-700">
+            <li class="flex gap-2"><i data-lucide="check-circle" class="h-4 w-4 mt-0.5"></i> Liability coverage</li>
+            <li class="flex gap-2"><i data-lucide="check-circle" class="h-4 w-4 mt-0.5"></i> WSIB‑aware practices</li>
+            <li class="flex gap-2"><i data-lucide="check-circle" class="h-4 w-4 mt-0.5"></i> Safe jobsite protocols</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-14 bg-slate-900 text-white">
+    <div class="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <h3 class="text-2xl font-semibold">Ready to outsource the headache?</h3>
+        <p class="text-slate-300 mt-1">One call to handle management, trades, supply and delivery.</p>
+      </div>
+      <a href="#contact" class="btn" style="background:white;color:#0f172a;">Get a fast estimate</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t">
+    <div class="mx-auto max-w-7xl px-4 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>© <span id="year"></span> Avlijas Solutions. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-slate-900">Terms</a>
+        <a href="#" class="hover:text-slate-900">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
